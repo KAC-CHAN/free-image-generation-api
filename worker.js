@@ -29,7 +29,7 @@ export default {
 
             // 🧠 Generate image from prompt
             const result = await env.AI.run(
-                "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+                "@cf/runwayml/stable-diffusion-v1-5-img2img",
                 { prompt }
             );
 
